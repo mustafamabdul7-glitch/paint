@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+
+.logo {
+    color: brown;
+    font-size: 29px;
+    font-weight: 800;
+    text-shadow: 3px 3px rgb(111, 50, 50);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo span {
+    color: rgb(6, 97, 6);
+    font-size: xx-large;
+    font-weight: 900;
+    text-shadow: 2px 3px rgb(9, 110, 50);
+}
+
+header {
+    
+    background-color: rgb(194, 129, 191);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+   position: sticky;
+   top: 0;
+   z-index: 1000;
+
+}
+
+.hamburger{
+    display: none;
+    font-size: 32;
+    user-select: none;
+    cursor: pointer;
+    margin: 20px;
+}
+.hamburger div{
+    width: 30px;
+    height: 7px;
+    padding: auto;
+    border: 3px solid rgb(163, 12, 42);
+    margin: 2px;
+
+}
+ul {
+    display: flex;
+}
+
+.nav ul li {
+    list-style: none;
+    padding: 20px 10px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(104, 101, 101);
+    transition: 0.3s;
+}
+
+ul li a:hover {
+    color: black;
+}
+
+
+.right-nav button {
+    padding: 10px 12px;
+    background-color: brown;
+    color: azure;
+    margin: 10px 12px;
+    transition: 0.5s;
+    border-radius: 10px 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.right-nav button:hover {
+    background-color: rgb(169, 20, 20);
+}
+
+.hero {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: content-box radial-gradient(rgb(163, 12, 42), rgb(202, 223, 231));
+    height: 80vh;
+}
+
+.hero h1 {
+    color: brown;
+    padding: 40px;
+    text-shadow: 2px 2px rgb(82, 24, 24);
+    font-weight: 900;
+    font-size: 50px;
+
+}
+
+.hero p {
+    font-size: 18px;
+    font-weight: 200;
+    color: rgb(44, 43, 43);
+    padding: 40px;
+}
+
+.join {
+    padding: 10px 12px;
+    font-size: 20px;
+    font-weight: 300;
+    background-color: rgb(42, 165, 65);
+    color: azure;
+    margin: 10px 12px;
+    transition: 0.5s;
+    border-radius: 10px 20px;
+}
+
+.join:hover {
+    background-color: rgb(0, 255, 30);
+}
+
+.container {
+    background: content-box radial-gradient(rgb(180, 228, 190), rgb(219, 180, 217));
+    border-radius: 5px;
+
+
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.flex div {
+    width: 30%;
+    border-radius: 30px;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.flex div img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.flex div p {
+    color: rgb(104, 101, 101);
+}
+
+/* about */
+#about {
+    text-align: center;
+}
+
+#about h1 {
+    color: brown;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#about p {
+    color: rgb(104, 101, 101);
+}
+
+.flex1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.flex1 div {
+    width: 50%;
+}
+
+.flex1 div img {
+    width: 100%;
+    border: 2px solid rgb(194, 129, 191);
+    border-radius: 20px;
+    height: 50vh;
+}
+
+.flex1 div {
+    text-align: left;
+    padding: 30px;
+}
+
+.flex1 div h3 {
+    color: brown;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.flex1 div p {
+    color: rgb(104, 101, 101);
+    text-align: justify;
+}
+
+.flex1 div a {
+    text-decoration: none;
+    color: rgb(194, 129, 191);
+    font-size: 24px;
+    font-weight: 600;
+    transition: 0.4s;
+}
+.flex1 div a:hover{
+    color: rgb(42, 165, 58);
+}
+
+/* contact */
+#contact {
+    text-align: center;
+    background-color: #e7e3e3;
+    border-radius: 40px;
+}
+
+#contact h1 {
+    color: brown;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#contact p {
+    color: rgb(104, 101, 101);
+}
+
+.form {
+    width: 80%;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.form input {
+    width: 100%;
+    background-color: rgb(235, 191, 232);
+    color: brown;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px 20px;
+}
+
+.form input:focus {
+    border: 4px solid brown;
+    background-color: rgb(196, 191, 191);
+    color: brown;
+}
+
+.form p {
+    color: rgb(104, 101, 101);
+}
+
+.form textarea {
+    background: content-box radial-gradient(rgb(155, 235, 171), rgb(216, 151, 213));
+    width: 100%;
+    border-radius: 20px 10px;
+    padding-left: 20px;
+}
+
+.form textarea:focus {
+    border: 4px solid brown;
+    background: content-box radial-gradient(rgb(81, 82, 81), rgb(219, 217, 219));
+    color: brown;
+
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(194, 129, 191);
+}
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    /* Hide nav on mobile */
+    .nav {
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background: rgb(194, 129, 191);
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .nav ul {
+        flex-direction: column;
+    }
+
+    .nav ul li {
+        padding: 10px 0;
+    }
+
+    .right-nav {
+        display: none; /* Hide right button on mobile */
+      
+    }
+    .response{
+        display: block;
+    
+    }
+    .flex{
+        flex-direction: column;
+    }
+    .flex div{
+        width: 100%;
+        margin: 20px;
+    }
+    .flex1{
+        flex-direction: column;
+
+    }
+    .flex1 div{
+        width: 100%;
+    }
+    .hero{
+        height: 100vh;
+    }
+}
